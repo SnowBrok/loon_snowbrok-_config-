@@ -1,0 +1,146 @@
+[General]
+ip-mode = ipv4-only
+allow-udp-proxy = true
+allow-wifi-access = false
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server = system,119.29.29.29,114.114.114.114,223.5.5.5
+doh-server = https://223.5.5.5/dns-query
+ipv6=false
+proxy-test-url = http://www.gstatic.com/generate_204
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+real-ip = msftconnecttest.com,msftncsi.com,*.msftconnecttest.com,*.msftncsi.com,*.srv.nintendo.net,*.stun.playstation.net,xbox.*.microsoft.com,*.xboxlive.com,*.battlenet.com.cn,*.battlenet.com,*.blzstatic.cn,*.battle.net
+resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/sub-store-parser.js
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
+test-timeout = 5
+interface-mode = auto
+wifi-access-http-port = 6052
+wifi-access-socks5-port = 6051
+
+[Host]
+*.126.com = server:119.29.29.29
+*.126.net = server:119.29.29.29
+*.127.net = server:119.29.29.29
+*.163.com = server:119.29.29.29
+*.alicdn.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.bilibili.com = server:119.29.29.29
+*.jd.com = server:119.28.28.28
+*.mi.com = server:119.29.29.29
+*.netease.com = server:119.29.29.29
+*.qq.com = server:119.28.28.28
+*.taobao.com = server:223.5.5.5
+*.tencent.com = server:119.28.28.28
+*.tmall.com = server:223.5.5.5
+*.weixin.com = server:119.28.28.28
+*.xiaomi.com = server:119.29.29.29
+*testflight.apple.com = server:8.8.4.4
+dl.google.com = server:119.29.29.29
+dl.l.google.com = server:119.29.29.29
+mtalk.google.com = 108.177.125.188
+
+[Proxy]
+
+[Remote Proxy]
+
+[Proxy Group]
+
+Proxies = select,全部_Filte,url = http://cp.cloudflare.com/generate_204,img-url = paperplane
+YouTube = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,UK英国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0737.jpeg?raw=true
+Spotify = select,Proxies,HK香港,JP日本,SG新加坡,TW台湾,US美国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0736.jpeg?raw=true
+OpenAI = select,Proxies,HK香港,JP日本,SG新加坡,TW台湾,US美国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0767.png?raw=true
+Telegram = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,UK英国,KR韩国,JP日本,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0739.png?raw=true
+Netflix = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0757.png?raw=true
+Disney = select,Proxies,TW台湾,HK香港,SG新加坡,US美国,JP日本,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0769.png?raw=true
+Bahamut = select,Proxies,HK香港,TW台湾,SG新加坡,JP日本,KR韩国,US美国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0756.png?raw=true
+Bilibili = select,Proxies,DIRECT,HK香港,TW台湾,JP日本,KR韩国,US美国,SG新加坡,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0773.png?raw=true
+Steam = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,JP日本,KR韩国,TU土耳其,UK英国,IN印度,DE德国,CA加拿大,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0758.png?raw=true
+Google = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,JP日本,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0759.png?raw=true
+Microsoft = select,Proxies,HK香港,TW台湾,US美国,SG新加坡,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0760.jpeg?raw=true
+Apple = select,Proxies,DIRECT,TU土耳其,JP日本,KR韩国,SG新加坡,US美国,TW台湾,HK香港,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0762.png?raw=true
+PayPal = select,Proxies,DIRECT,HK香港,JP日本,SG新加坡,TW台湾,US美国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/IMG_0763.png?raw=true
+Instagram = select,Proxies,DIRECT,HK香港,JP日本,SG新加坡,TW台湾,US美国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/1200px-Instagram_logo_2016.svg.png?raw=true
+Claude = select,Proxies,DIRECT,HK香港,JP日本,SG新加坡,TW台湾,US美国,UK英国,img-url = https://github.com/SnowBrok/loon_snowbrok-_config-/blob/main/OIP.jpeg?raw=true
+HK香港 = select,HK_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+TW台湾 = select,TW_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+US美国 = select,US_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+SG新加坡 = select,SG_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+JP日本 = select,JP_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+KR韩国 = select,KR_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+UK英国 = select,UK_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+TU土耳其 = select,TU_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Turkey.png
+IN印度 = select,IN_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/India.png
+DE德国 = select,DE_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Germany.png
+CA加拿大 = select,CA_Filter,url = http://cp.cloudflare.com/generate_204,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Canada.png
+
+[Remote Filter]
+
+全部_Filte = NameRegex, FilterKey = "|"
+HK_Filter = NameRegex, FilterKey = "(?i)(港|HK|Hong|湾仔|港仔|九龙)"
+TW_Filter = NameRegex, FilterKey = "(?i)(台|TW|Tai|台北|新竹|台中|桃园|台南|高雄|花莲)"
+US_Filter = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+SG_Filter = NameRegex, FilterKey = "(?i)(新加坡|SG|Singapore)"
+UK_Filter = NameRegex, FilterKey = "(?i)(英国|UK|伦敦)"
+JP_Filter = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|名古屋|福冈|仙台|京都|Japan)"
+KR_Filter = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓|南韩|南朝鲜|釜山|South Korea)"
+TU_Filter = NameRegex, FilterKey = "(?i)(土耳其|TU|Turkey)"
+IN_Filter = NameRegex, FilterKey = "(?i)(印度|IN|IND|孟买|新德里|高知|Republic of India|India)"
+DE_Filter = NameRegex, FilterKey = "(?i)(德国|DEU|DE|柏林|慕尼黑|汉堡|科隆|Germany)"
+CA_Filter = NameRegex, FilterKey = "(?i)(加拿大|CA|渥太华)"
+
+[Rule]
+GEOIP,CN,DIRECT
+FINAL,Proxies
+
+[Remote Rule]
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Unbreak.list, policy=DIRECT, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list, policy=YouTube, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, policy=Netflix, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list, policy=Disney, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list, policy=Bahamut, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list, policy=Bilibili, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list, policy=Spotify, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list, policy=Steam, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list, policy=Telegram, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list, policy=Google, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list, policy=Microsoft, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list, policy=OpenAI, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list, policy=PayPal, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, policy=Apple, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list, policy=Proxies, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list, policy=DIRECT, enabled=true
+https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list, policy=DIRECT, enabled=true
+https://whatshub.top/rule/Instagram.list, policy=Instagram, enabled=true
+https://whatshub.top/rule/Claude.list, policy=Claude, enabled=true
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
+^https?:\/\/api\.abema\.io\/v\d\/ip\/check reject
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+
+[Script]
+enable=true
+
+[Remote Script]
+
+[Plugin]
+https://whatshub.top/plugin/BaiduCloud.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Spotify_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Reddit_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/BaiduNetDisk_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/BaiduSearchWebpage_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/CoolApk_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Weibo_intl_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Bilibili_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Tieba_remove_ads.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, enabled=true
+https://kelee.one/Tool/Loon/Plugin/BlockAdvertisers.plugin, enabled=true
+https://whatshub.top/plugin/youtube.plugin, enabled=true
+https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.plugin, tag=Emby, enabled=true
+
+[MITM]
+
+
